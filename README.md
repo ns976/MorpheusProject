@@ -19,7 +19,7 @@ Le code postal n’est pas présent dans les données XML mais on aimerait tout 
 
 ## Rappel pour utilisation de l'api :
 
-    - Récupéré le projet sur votre loca
+   - Récupéré le projet sur votre local
    - N'oubliez pas de lancer composer
    - Lancer l'api via la console : 
         php bin/console job-executor (pour les données en xml)
