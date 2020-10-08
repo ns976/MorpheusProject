@@ -5,10 +5,8 @@ namespace App\Api;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Validation;
 
-class Api
-{
-    public static function send(array $input, string $vertical): void
-    {
+class Api{
+    public static function send(array $input, string $vertical): void{
         if (!in_array($vertical, ['real_estate', 'job'])) {
             die("Wrong vertical: {$vertical}");
         }

@@ -2,8 +2,7 @@
 // src/Hook/RealEstateHook.php
 namespace App\Hook;
 
-class RealEstateHook
-{
+class RealEstateHook{
 
     /**
      * Creer le bon format accepte par API
@@ -14,11 +13,10 @@ class RealEstateHook
 
             $formatted_ad = array();
 
-            $vertical_immo_ad = self::Vertical_immo_ad($ad[ 'categorie' ]);
-
+            $vertical_immo_ad           = $this->vertical_immo_ad($ad[ 'categorie' ]);
             $formatted_ad[ 'id' ]       = $ad[ 'id' ];
             $formatted_ad[ 'title' ]    = $ad[ 'titre' ];
-            $formatted_ad[ 'body' ]     = RealEstateHook::buildDescription($ad['description']);
+            $formatted_ad[ 'body' ]     = $this->buildDescription($ad['description']);
             $formatted_ad[ 'vertical' ] = 'real_estate';
             $formatted_ad[ 'price' ]    = (int)$ad[ 'prix' ];
             $formatted_ad[ 'city' ]     = $ad[ 'ville' ];
@@ -45,10 +43,12 @@ class RealEstateHook
 
     /**
      * Conrespondance Categorie => IdCategory et  type
+     *
      * @param string $category : la categorie
+     *
      * @return array
      */
-    public function Vertical_immo_ad( string $category) : array {
+    private function Vertical_immo_ad( string $category) : array {
 
 
         $tab['IdCategory'] ="";

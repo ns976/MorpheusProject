@@ -18,7 +18,7 @@ class XMLConverter
         //-- On charge le fichier XML
         $xml = file_get_contents ( $filepath );
 
-        //-- Utilisation de la classe DOM pour parcour du xml
+        //-- Utilisation de la classe DOM pour parcours du xml
         $dom = new DOMDocument();
 
         if ( !$dom -> loadXML ( $xml )) {

@@ -112,7 +112,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="zielu.svntoolbox.prj.config" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -130,7 +130,7 @@
       <updated>1602003821257</updated>
       <workItem from="1602003822641" duration="23647000" />
       <workItem from="1602083550692" duration="19000" />
-      <workItem from="1602098346438" duration="1079000" />
+      <workItem from="1602098346438" duration="9057000" />
     </task>
     <servers />
   </component>
@@ -147,17 +147,18 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2681" y="422" key="Github.CreateGistDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602074284632" />
-    <state x="817" y="393" key="Github.ShareDialog" timestamp="1602098387738">
+    <state x="817" y="393" key="Github.ShareDialog" timestamp="1602148928152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="817" y="393" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602098387738" />
+    <state x="817" y="393" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602148928152" />
     <state x="612" y="337" key="NewPhpFileDialog" timestamp="1602008146760">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="612" y="337" key="NewPhpFileDialog/0.0.1600.860@0.0.1600.860" timestamp="1602008146760" />
-    <state x="2279" y="78" width="1539" height="883" key="SettingsEditor" timestamp="1602082981961">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="359" y="78" width="1539" height="883" key="SettingsEditor" timestamp="1602100485562">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="359" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602100485562" />
     <state x="2279" y="78" width="1539" height="883" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1602082981961" />
     <state x="612" y="195" width="695" height="650" key="find.popup" timestamp="1602004999462">
       <screen x="0" y="0" width="1920" height="1040" />
